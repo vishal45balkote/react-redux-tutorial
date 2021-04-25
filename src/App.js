@@ -7,6 +7,8 @@ import { connect } from "react-redux";
 import rotateAction from './actions/rotateAction';
 class App extends Component {
   render() {
+    alert('hello git');
+    alert('second hello');
     console.log(this.props);
     return (
       <div className="App">
